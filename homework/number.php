@@ -1,0 +1,9 @@
+<?php
+$arr=[1,2,3,4,5,6];
+var_dump($arr);
+$arr1=[];
+for(;$temp=array_pop($arr);){
+    array_push($arr1,$temp);
+}
+var_dump($arr1);
+?>
